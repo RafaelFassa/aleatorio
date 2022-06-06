@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.bg-nav {
+    background: black;
+}
+
+#fonts {
+    font-family: Poppins;
+    font-size: 15px;
+    color: white;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+#fonts:hover {
+    color: rgb(56, 118, 235);
+    transition: all 0.3s;
+}
+
+.btn-search {
+    border: 1px solid rgb(56, 118, 235);
+    color: rgb(56, 118, 235);
+    background: transparent;
+    transition: all 0.3s;
+}
+
+.btn-search:hover {
+    color: white;
+    background: rgb(56, 118, 235);
+    transition: all 0.3s;
+}
+
+.img-banner {
+    height: 35rem;
+    min-height: 35rem;
+    max-height: 35rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bg-drop {
+    font-family: Poppins;
+    color: black;
+    transition: 0.3s;
+}
+
+.bg-drop:hover {
+    font-family: Poppins;
+    color: rgb(255, 255, 255);
+    background: rgb(56, 118, 235);
+    transition: 0.3s;
+}
